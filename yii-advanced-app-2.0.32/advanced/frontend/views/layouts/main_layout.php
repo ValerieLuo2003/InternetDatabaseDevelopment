@@ -128,7 +128,7 @@ AppAsset::register($this);
 								<i class="fas fa-angle-down"></i>
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="<?php echo Yii::$app->getHomeUrl(); ?>?r=energy">生态环境</a>
+							<a class="dropdown-item" href="<?php echo Yii::$app->getHomeUrl(); ?>?r=ecological">生态环境</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="<?php echo Yii::$app->getHomeUrl(); ?>?r=economics">社会经济</a>
 								<div class="dropdown-divider"></div>
