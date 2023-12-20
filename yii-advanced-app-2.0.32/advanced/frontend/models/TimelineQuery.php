@@ -2,7 +2,7 @@
 /**
  * Team: 不想重装队
  * Coding By: 姜涵
- * 本文件用于新闻界面
+ * 本文件用于时间线界面
  */
 namespace frontend\models;
 
