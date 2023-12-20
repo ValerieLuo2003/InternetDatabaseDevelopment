@@ -6,7 +6,6 @@ import re
 import bs4
 from bs4 import BeautifulSoup
 
-# url = 'https://sou.chinanews.com.cn/search.do?q=%E4%BF%84%E4%B9%8C'
 url = 'https://sou.chinanews.com.cn/search.do?q=%E6%A0%B8%E6%B1%A1%E6%B0%B4'
 
 
