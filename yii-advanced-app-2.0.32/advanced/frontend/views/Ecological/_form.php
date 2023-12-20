@@ -1,8 +1,8 @@
 <?php
 /**
- * Team: NKU-HLPY
- * Coding By: 韩佳迅
- * 本文件用于能源影响界面
+ * Team: NKU-不想重装
+ * Coding By: 李晓彤
+ * 本文件用于核污染对生态环境影响界面
  */
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
