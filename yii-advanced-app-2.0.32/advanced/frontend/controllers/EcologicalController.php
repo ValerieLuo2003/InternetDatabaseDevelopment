@@ -2,26 +2,26 @@
 /**
  * Team: NKU-不想重装
  * Coding By: 李晓彤
- * 本文件用于核污染对生态环境影响界面
+ * 本文件用于生态环境影响界面
  */
 namespace frontend\controllers;
 
 use Yii;
-use frontend\models\Energy;
-use frontend\models\EnergySearch;
+use frontend\models\Ecological;
+use frontend\models\EcologicalSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\data\Pagination;
 use yii\db\ActiveRecord;
 use yii\data\Sort;
-$Energy = Energy::find() -> orderBy('num_id') -> all();
+$Ecological = Ecological::find() -> orderBy('num_id') -> all();
 
 
 /**
- * EnergyController implements the CRUD actions for Energy model.
+ * EcologicalController implements the CRUD actions for Ecological model.
  */
-class EnergyController extends Controller
+class EcologicalController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -41,20 +41,20 @@ class EnergyController extends Controller
     }
 
     /**
-     * Lists all Energy models.
+     * Lists all Ecological models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new EnergySearch();
+        $searchModel = new EcologicalSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
-        $query = Energy::find();
+        $query = Ecological::find();
         $pagination = new Pagination([
             'totalCount' =>  $query-> count(),
             'pageSize' =>  10            
           ]);
-        $Energy = $query-> orderBy('num_id')
+        $Ecological = $query-> orderBy('num_id')
         -> offset($pagination-> offset)
         -> limit($pagination-> limit)
         -> all();
@@ -62,13 +62,13 @@ class EnergyController extends Controller
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
-            'Energy' => $Energy,
+            'Ecological' => $Ecological,
             'pagination' => $pagination
         ]);
     }
 
     /**
-     * Displays a single Energy model.
+     * Displays a single Ecological model.
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
@@ -81,13 +81,13 @@ class EnergyController extends Controller
     }
 
     /**
-     * Creates a new Energy model.
+     * Creates a new Ecological model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Energy();
+        $model = new Ecological();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->num_id]);
@@ -99,7 +99,7 @@ class EnergyController extends Controller
     }
 
     /**
-     * Updates an existing Energy model.
+     * Updates an existing Ecological model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -119,7 +119,7 @@ class EnergyController extends Controller
     }
 
     /**
-     * Deletes an existing Energy model.
+     * Deletes an existing Ecological model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -133,15 +133,15 @@ class EnergyController extends Controller
     }
 
     /**
-     * Finds the Energy model based on its primary key value.
+     * Finds the Ecological model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Energy the loaded model
+     * @return Ecological the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Energy::findOne($id)) !== null) {
+        if (($model = Ecological::findOne($id)) !== null) {
             return $model;
         }
 
