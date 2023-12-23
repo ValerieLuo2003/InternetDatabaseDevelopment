@@ -107,7 +107,7 @@ AppAsset::register($this);
 						<a class="nav-link cool" href="<?php echo Yii::$app->getHomeUrl(); ?>?r=site/about">关于团队</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link cool" href="<?php echo Yii::$app->getHomeUrl(); ?>?r=countriesview">案例研究</a>
+							<a class="nav-link cool" href="<?php echo Yii::$app->getHomeUrl(); ?>?r=casestudy">案例研究</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle cool" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
@@ -136,7 +136,7 @@ AppAsset::register($this);
 							</div>
 						</li>
 						<li class="nav-item">
-						<a class="nav-link cool" href="<?php echo Yii::$app->getHomeUrl(); ?>?r=comment">网友评论</a>
+						<a class="nav-link cool" href="<?php echo Yii::$app->getHomeUrl(); ?>?r=comment">各界观点</a>
 						</li>
 					</ul>
 				</div>
