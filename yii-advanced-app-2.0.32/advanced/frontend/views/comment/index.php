@@ -19,7 +19,7 @@ $this->title = 'Comments';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
-<h1 style="font-family: 正楷;"><p align="center">网友评论</p></h1>
+<h1 style="font-family: 正楷;"><p align="center">各界观点</p></h1>
 
     <section class="index-news commit_title" id="comment" style="padding-bottom: 20px; padding-top: 30px;">
     
