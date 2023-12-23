@@ -406,7 +406,7 @@ AppAsset::register($this);
 										<div class="test_social_pos">
 										<ul class="social_list1">
 											<li>
-												<a href="https://github.com/hanmaxmax">
+												<a href="https://github.com/ValerieLuo2003">
 												<i class="bi bi-github"></i>
 													<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-github" viewBox="0 0 16 16">
 													<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
@@ -416,10 +416,10 @@ AppAsset::register($this);
 										</ul>
 										</div>
 									</div>
-									<h3>韩佳迅
+									<h3>罗梓洋
 										<span>组长</span>
 									</h3>
-									<i>南开大学 计算机科学与技术专业 大三学生</i>
+									<i>南开大学 密码科学与技术专业 大三学生</i>
 								</div>
 
 								<div class="col-md-6 testimonials_grid text-center">
@@ -428,7 +428,7 @@ AppAsset::register($this);
 										<div class="test_social_pos">
 											<ul class="social_list1">
 												<li>
-													<a href="https://github.com/AldebaranL">
+													<a href="https://github.com/enertiy/">
 													<i class="bi bi-github"></i>
 														<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-github" viewBox="0 0 16 16">
 														<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
@@ -438,10 +438,10 @@ AppAsset::register($this);
 											</ul>
 										</div>
 									</div>
-									<h3>林语盈
+									<h3>李晓彤
 										<span>组员1</span>
 									</h3>
-									<i>南开大学 计算机科学与技术专业 大三学生</i>
+									<i>南开大学 信息安全专业 大三学生</i>
 								</div>
 
 							</div>
@@ -464,10 +464,10 @@ AppAsset::register($this);
 											</ul>
 										</div>
 									</div>
-									<h3>彭钰婷
+									<h3>姜涵
 										<span>组员2</span>
 									</h3>
-									<i>南开大学 计算机科学与技术专业 大三学生</i>
+									<i>南开大学 信息安全专业 大三学生</i>
 								</div>
 
 								<div class="col-md-6 testimonials_grid text-center">
@@ -476,7 +476,7 @@ AppAsset::register($this);
 										<div class="test_social_pos">
 											<ul class="social_list1">
 												<li>
-													<a href="https://github.com/yx66667">
+													<a href="https://github.com/aurora-er">
 													<i class="bi bi-github"></i>
 														<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-github" viewBox="0 0 16 16">
 														<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
@@ -486,10 +486,10 @@ AppAsset::register($this);
 											</ul>
 										</div>
 									</div>
-									<h3>姚鑫
+									<h3>师雅卉
 										<span>组员3</span>
 									</h3>
-									<i>南开大学 信息安全专业 大三学生</i>
+									<i>南开大学 密码科学与技术专业 大三学生</i>
 								</div>
 
 							</div>
@@ -512,46 +512,48 @@ AppAsset::register($this);
 
 	<!--footer-->
 
-	<footer>
+	<!--footer-->
+		   <footer>
 		<div class="instagram-posts">
-			<h3 class="tittle cen foot">We yearn for world peace</h3>
+			<h3 class="tittle cen foot">保护地球，就是保护我们自己的未来，让绿意蔓延，让生态永续。</h3>
+			<h3 class="tittle cen foot">Protecting the Earth is about safeguarding our own future, fostering greenery, and ensuring ecological sustainability.</h3>
 			<div class="row footer-top">
 				<!-- instagram posts -->
 				<div class="col-md-2 col-sm-2 footer-grid-img">
-					<a href="https://search.bilibili.com/all?keyword=%E4%BF%84%E4%B9%8C%E6%88%98%E4%BA%89&from_source=webtop_search&spm_id_from=333.1007&search_source=5">
-						<img src="statics/images/f1.png" class="img-fluid" alt="" />
+					<a href="https://zh.wikipedia.org/w/index.php?search=%E6%97%A5%E6%9C%AC%E6%A0%B8%E6%B1%A1%E6%B0%B4&title=Special%3A%E6%90%9C%E7%B4%A2&ns0=1">
+						<img src="statics/images/i1.jpeg" class="img-fluid" alt="" />
 					</a>
 				</div>
 				<div class="col-md-2 col-sm-2 footer-grid-img">
-					<a href="https://www.zhihu.com/search?type=content&q=%E4%BF%84%E4%B9%8C%E6%88%98%E4%BA%89">
+					<a href="https://kns.cnki.net/kns8s/defaultresult/index?crossids=YSTT4HG0%2CLSTPFY1C%2CJUP3MUPD%2CMPMFIG1A%2CWQ0UVIAA%2CBLZOG7CK%2CEMRPGLPA%2CPWFIRAGL%2CNLBO1Z6R%2CNN3FJMUV&korder=SU&kw=%E6%A0%B8%E6%B1%A1%E6%9F%93">
+					<img src="statics/images/i2.jpeg" class="img-fluid" alt="" />
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-2 footer-grid-img">
+					<a href="https://www.zhihu.com/search?type=content&q=%E6%A0%B8%E6%B1%A1%E6%9F%93">
 					<img src="statics/images/f2.png" class="img-fluid" alt="" />
 					</a>
 				</div>
 				<div class="col-md-2 col-sm-2 footer-grid-img">
-					<a href="https://sou.chinanews.com.cn/search.do?q=%E4%BF%84%E4%B9%8C%E6%88%98%E4%BA%89">
-					<img src="statics/images/f3.png" class="img-fluid" alt="" />
-					</a>
-				</div>
-				<div class="col-md-2 col-sm-2 footer-grid-img">
-					<a href="https://www.youtube.com/results?search_query=%E4%BF%84%E4%B9%8C%E6%88%98%E4%BA%89">
+					<a href="https://www.youtube.com/results?search_query=%E6%A0%B8%E6%B1%A1%E6%9F%93">
 					<img src="statics/images/f4.png" class="img-fluid" alt="" />
 					</a>
 				</div>
 				<div class="col-md-2 col-sm-2 footer-grid-img">
-					<a href="https://www.bbc.co.uk/search?q=Russian-Uzbekistan+War&d=HOMEPAGE_GNL">
+					<a href="https://www.bbc.co.uk/search?q=nuclear+contamination&seqId=91234710-9f37-11ee-8eb0-51c49da9aced&d=HOMEPAGE_GNL">
 					<img src="statics/images/f5.png" class="img-fluid" alt="" />
 					</a>
 				</div>
 				<div class="col-md-2 col-sm-2 footer-grid-img">
-					<a href="http://search.people.cn/s?keyword=%E4%BF%84%E4%B9%8C%E6%88%98%E4%BA%89&st=0&_=1675843392757">
-					<img src="statics/images/f6.png" class="img-fluid" alt="" />
+					<a href="https://so.news.cn/#search/0/%E6%A0%B8%E6%B1%A1%E6%9F%93/1/">
+					<img src="statics/images/i6.jpeg" class="img-fluid" alt="" />
 					</a>
 				</div>
 			</div>
 
 			<div class="col-md-3 agileinfo_footer_grid">
 			<h3><p style="color:white">Introduction</p></h3>
-				<p >本网站以呼吁和平为宗旨，通过介绍饿乌战争相关信息，提供战争最新情况，集中各网站消息，从广度和深度上为用户提供更好的使用体验。</span></p>
+				<p >本网站旨在呼吁保护生态环境，通过向大众科普核污染知识，提供地球的核污染现状，回溯历史进行案例分析，从各方面展现核污染的危害，用行动捍卫地球。</span></p>
 				<div class="w3ls-social-icons-2">
 				<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
 				<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
@@ -561,45 +563,46 @@ AppAsset::register($this);
 				</div>
 			</div>
 
+
 			<div class="col-md-3 agileinfo_footer_grid f3">
-				<h3 ><p style="color:white">导航</p></h3>					
+				<h3 ><p style="color:white">导航</p></h3>
 				<div class="nav-w3-l">
 				<ul>
 					<li><a href="index.php" >首页</a></li>
 					<li><a href="../../backend/web" >登录后台</a></li>
 					<li><a href="index.php?r=site/about" >关于团队</a></li>
-					<li><a href="index.php?r=news" >战争新闻</a></li>
-					<li><a href="index.php?r=timeline" >战争时间线</a></li>
-					<li><a href="index.php?r=energy" >影响-能源</a></li>
-					<li><a href="index.php?r=economics" >影响-经济</a></li>
+					<li><a href="index.php?r=casestudy" >案例研究</a></li>
+					<li><a href="index.php?r=news" >核污染新闻</a></li>
+					<li><a href="index.php?r=timeline" >日本核污水排放时间线</a></li>
+					<li><a href="index.php?r=ecological" >影响-生态环境</a></li>
+					<li><a href="index.php?r=economics" >影响-社会经济</a></li>
 					<li><a href="index.php?r=internationalrelation" >影响-国际关系</a></li>
-					<li><a href="index.php?r=comment" >网友评论</a></li>
-
+					<li><a href="index.php?r=comment" >各界观点</a></li>
 				</ul>
 				</div>
 			</div>
 
 
 
-
 			<div class="col-md-3 agileinfo_footer_grid f3">
-				<h3 ><p style="color:white">相关网站</p></h3>					
+				<h3 ><p style="color:white">相关网站</p></h3>
 				<div class="nav-w3-l">
 				<ul>
-					<li><a href="http://www.people.com.cn/" >人民网</a></li>
-					<li><a href="https://www.81.cn/index.htm" >中国军网</a></li>
-					<li><a href="https://www.gmw.cn/" >光明网</a></li>
+					<li><a href="https://www.wikipedia.org/" >维基百科</a></li>
+					<li><a href="https://www.nrc.gov/" >美国核能管理委员会NRC</a></li>
+					<li><a href="https://www.iaea.org/" >国际原子能机构IAEA</a></li>
 					<li><a href="https://www.youtube.com" >youtube</a></li>
 					<li><a href="https://www.bbc.com/" >BBC</a></li>
 					<li><a href="https://www.bilibili.com/" >bilibili</a></li>
 					<li><a href="https://www.zhihu.com/" >知乎</a></li>
+					<li><a href="https://ec.europa.eu/euratom/index_en.htm" >欧洲原子能共同体EURATOM</a></li>
 				</ul>
 				</div>
 			</div>
 
 			<div class="col-md-3 agileinfo_footer_grid">
 			<h3><p style="color:white">We are</p></h3>
-				<p>互联网数据库课程NKU-HLPY队伍，一群热爱coding的南开大三er~</p>
+				<p>互联网数据库开发课程-不想重装队，已经历经所有报错，立志coding时不重装环境！</p>
 				<div class="w3ls-social-icons-2">
 				<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
 				<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
@@ -641,7 +644,7 @@ AppAsset::register($this);
 						</div>
 					</div>
 					<div class="copyrightbottom-w3ls-agile">
-						<p>Copyright &copy; 2022. NKU-HLPY All rights reserved.<a target="_blank" href="https://github.com/hanmaxmax/Yii_project">源代码Github链接</a></p>
+						<p>Copyright &copy; 2023. NKU-不想重装队 All rights reserved.<a target="_blank" href="https://github.com/ValerieLuo2003/InternetDatabaseDevelopment">源代码Github链接</a></p>
 
 					</div>
 				</div>
