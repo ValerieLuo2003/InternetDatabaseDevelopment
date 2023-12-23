@@ -176,9 +176,8 @@ $cnt4label = 1;
 
 
 
-
-
-
+<!--footer-->
+		   <footer>
 		<div class="instagram-posts">
 			<h3 class="tittle cen foot">保护地球，就是保护我们自己的未来，让绿意蔓延，让生态永续。</h3>
 			<h3 class="tittle cen foot">Protecting the Earth is about safeguarding our own future, fostering greenery, and ensuring ecological sustainability.</h3>
@@ -230,7 +229,7 @@ $cnt4label = 1;
 
 
 			<div class="col-md-3 agileinfo_footer_grid f3">
-				<h3 ><p style="color:white">导航</p></h3>					
+				<h3 ><p style="color:white">导航</p></h3>
 				<div class="nav-w3-l">
 				<ul>
 					<li><a href="index.php" >首页</a></li>
@@ -250,7 +249,7 @@ $cnt4label = 1;
 
 
 			<div class="col-md-3 agileinfo_footer_grid f3">
-				<h3 ><p style="color:white">相关网站</p></h3>					
+				<h3 ><p style="color:white">相关网站</p></h3>
 				<div class="nav-w3-l">
 				<ul>
 					<li><a href="https://www.wikipedia.org/" >维基百科</a></li>
