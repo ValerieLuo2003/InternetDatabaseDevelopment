@@ -3144,7 +3144,6 @@ a.news-title:hover{
                     <span>@<?=$list['username']?> 说: </ a><?=$list['content']?></span>
                 </p>
                 <div class="media-action">
-                    <?=date('Y-m-d h:i:s',$list['created_at'])?>
                 </div>
             </div>
         <?php endforeach;?>
