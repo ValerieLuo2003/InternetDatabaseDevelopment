@@ -89,7 +89,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <p class="about-p" style="font-size:15px">
                         完成前台核污染现状的新闻、时间线页面，以及相应的后台数据管理，完成对应于数据表 news 的 MVC 结构，并完成了爬虫，对 news 数据表的数据爬取，完成后台用户管里页面，实现一键部要功能，负责文档: 实现文档、部罢文档、项目展示 PPT、用户手册。
                     </p>
-                    <li><a href="https://github.com/tttran67">看我的github主页</a></li>
+                    <li><a href="https://github.com/HanJhj">看我的github主页</a></li>
 				</div>
 				<!-- /.col-lg-4 -->
                 <div class="col-lg-3 bt-bottom-info ab">
