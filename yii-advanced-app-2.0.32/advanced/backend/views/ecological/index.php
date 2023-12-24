@@ -11,7 +11,7 @@ use yii\widgets\Pjax;
 /* @var $searchModel backend\models\EcologicalSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Energies';
+$this->title = 'Ecological';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="ecological-index">
