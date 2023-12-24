@@ -1,17 +1,17 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : mySQL
+ Source Server         : mysql
  Source Server Type    : MySQL
- Source Server Version : 80035
+ Source Server Version : 80035 (8.0.35)
  Source Host           : localhost:3306
  Source Schema         : yii2advanced
 
  Target Server Type    : MySQL
- Target Server Version : 80035
+ Target Server Version : 80035 (8.0.35)
  File Encoding         : 65001
 
- Date: 21/12/2023 22:37:44
+ Date: 24/12/2023 13:14:32
 */
 
 SET NAMES utf8mb4;
@@ -24,11 +24,11 @@ DROP TABLE IF EXISTS `casestudy`;
 CREATE TABLE `casestudy`  (
   `country` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '国家',
   `name` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '人名',
-  `view` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '观点',
+  `casecontent` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '观点',
   `picture` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '图片',
-  `num_id` int(0) NOT NULL AUTO_INCREMENT COMMENT '序号',
+  `num_id` int NOT NULL AUTO_INCREMENT COMMENT '序号',
   PRIMARY KEY (`num_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 8 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 8 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of casestudy
@@ -43,13 +43,13 @@ INSERT INTO `casestudy` VALUES ('法国', '马约尔岛核试验', '1979年，�
 -- ----------------------------
 DROP TABLE IF EXISTS `comment`;
 CREATE TABLE `comment`  (
-  `id` int(0) NOT NULL AUTO_INCREMENT,
-  `user_id` int(0) NOT NULL COMMENT '用户id',
+  `id` int NOT NULL AUTO_INCREMENT,
+  `user_id` int NOT NULL COMMENT '用户id',
   `content` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL COMMENT '内容',
   `username` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL COMMENT '用户名',
   PRIMARY KEY (`id`) USING BTREE,
-  INDEX `user_id`(`user_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 9 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+  INDEX `user_id`(`user_id` ASC) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 9 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of comment
@@ -68,14 +68,14 @@ INSERT INTO `comment` VALUES (8, 6, '核污染水排海对海洋生态和人类�
 -- ----------------------------
 DROP TABLE IF EXISTS `ecological`;
 CREATE TABLE `ecological`  (
-  `num_id` int(0) NOT NULL AUTO_INCREMENT COMMENT '序号',
+  `num_id` int NOT NULL AUTO_INCREMENT COMMENT '序号',
   `name` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '名称',
   `influence` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '影响',
   `picture` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '图片1',
   `picture2` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '图片2',
   `picture3` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '图片3',
   PRIMARY KEY (`num_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '能源影响' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '能源影响' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of ecological
@@ -89,13 +89,13 @@ INSERT INTO `ecological` VALUES (3, '影响生物多样性', '污水排放可能
 -- ----------------------------
 DROP TABLE IF EXISTS `economics`;
 CREATE TABLE `economics`  (
-  `num_id` int(0) NOT NULL AUTO_INCREMENT COMMENT '序号',
+  `num_id` int NOT NULL AUTO_INCREMENT COMMENT '序号',
   `name` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '名称',
   `influence` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '影响',
   `picture1` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '图片1',
   `picture2` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '图片2',
   PRIMARY KEY (`num_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of economics
@@ -110,14 +110,14 @@ INSERT INTO `economics` VALUES (4, '国际投资和贸易', '核污水排放可�
 -- ----------------------------
 DROP TABLE IF EXISTS `internationalrelation`;
 CREATE TABLE `internationalrelation`  (
-  `num_id` int(0) NOT NULL AUTO_INCREMENT COMMENT '序号',
+  `num_id` int NOT NULL AUTO_INCREMENT COMMENT '序号',
   `name` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '名称',
   `influence` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '影响',
   `picture` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '图片1',
   `picture2` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '图片2',
   `picture3` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '图片3',
   PRIMARY KEY (`num_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '国际关系影响' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '国际关系影响' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of internationalrelation
@@ -132,9 +132,9 @@ INSERT INTO `internationalrelation` VALUES (3, '国际合作解决核废料问�
 DROP TABLE IF EXISTS `migration`;
 CREATE TABLE `migration`  (
   `version` varchar(180) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `apply_time` int(0) DEFAULT NULL,
+  `apply_time` int NULL DEFAULT NULL,
   PRIMARY KEY (`version`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of migration
@@ -149,11 +149,11 @@ INSERT INTO `migration` VALUES ('m190124_110200_add_verification_token_column_to
 DROP TABLE IF EXISTS `news`;
 CREATE TABLE `news`  (
   `name` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '新闻标题',
-  `date` datetime(0) NOT NULL COMMENT '发布时间',
+  `date` datetime NOT NULL COMMENT '发布时间',
   `url` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '链接',
-  `num_id` int(0) NOT NULL AUTO_INCREMENT COMMENT '序号',
+  `num_id` int NOT NULL AUTO_INCREMENT COMMENT '序号',
   PRIMARY KEY (`num_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 101 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '新闻表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 101 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '新闻表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of news
@@ -265,11 +265,11 @@ INSERT INTO `news` VALUES ('核污染水排海是危害人类的“冒险赌博�
 DROP TABLE IF EXISTS `ourteammems`;
 CREATE TABLE `ourteammems`  (
   `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '成员姓名',
-  `id` int(0) NOT NULL COMMENT '学号',
-  `num_id` int(0) NOT NULL AUTO_INCREMENT COMMENT '序号',
+  `id` int NOT NULL COMMENT '学号',
+  `num_id` int NOT NULL AUTO_INCREMENT COMMENT '序号',
   `major` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '专业',
   PRIMARY KEY (`num_id`) USING BTREE
-) ENGINE = MyISAM AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '团队成员表' ROW_FORMAT = Dynamic;
+) ENGINE = MyISAM AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '团队成员表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of ourteammems
@@ -284,14 +284,14 @@ INSERT INTO `ourteammems` VALUES ('师雅卉', 2111224, 4, '密码科学与技�
 -- ----------------------------
 DROP TABLE IF EXISTS `personhomework`;
 CREATE TABLE `personhomework`  (
-  `num_id` int(0) NOT NULL AUTO_INCREMENT,
+  `num_id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '名字',
   `hw1` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '作业1',
   `hw2` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '作业2',
   `hw3` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '作业3',
   `github` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT 'GitHub链接',
   PRIMARY KEY (`num_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '个人作业' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '个人作业' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of personhomework
@@ -306,11 +306,11 @@ INSERT INTO `personhomework` VALUES (4, '师雅卉', '作业1（2111224_师雅�
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_user_authority`;
 CREATE TABLE `tb_user_authority`  (
-  `tb_uaId` int unsigned NOT NULL COMMENT '权限编号',
-  `tb_uaRemark` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL COMMENT '权限说明',
-  `tb_uaIsmanager` tinyint(1) DEFAULT NULL COMMENT '是否为管理员',
+  `tb_uaId` int UNSIGNED NOT NULL COMMENT '权限编号',
+  `tb_uaRemark` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '权限说明',
+  `tb_uaIsmanager` tinyint(1) NULL DEFAULT NULL COMMENT '是否为管理员',
   PRIMARY KEY (`tb_uaId`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '用户权限表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '用户权限表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of tb_user_authority
@@ -324,42 +324,42 @@ INSERT INTO `tb_user_authority` VALUES (3, '游客权限', 0);
 -- ----------------------------
 DROP TABLE IF EXISTS `teamhomework`;
 CREATE TABLE `teamhomework`  (
-  `num_id` int(0) NOT NULL AUTO_INCREMENT COMMENT '序号',
+  `num_id` int NOT NULL AUTO_INCREMENT COMMENT '序号',
   `name` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '作业名称',
   `position` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '文件名称',
   PRIMARY KEY (`num_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 8 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '团队作业' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 8 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '团队作业' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of teamhomework
 -- ----------------------------
-INSERT INTO `teamhomework` VALUES (1, '需求文档', 'NKU-不想重装_需求文档（2112957_2112075_2113630_2111224).pdf');
-INSERT INTO `teamhomework` VALUES (2, '设计文档', 'NKU-不想重装_设计文档（2112957_2112075_2113630_2111224).pdf');
-INSERT INTO `teamhomework` VALUES (3, '实现文档', 'NKU-不想重装_实现文档（2112957_2112075_2113630_2111224).pdf');
-INSERT INTO `teamhomework` VALUES (4, '用户手册', 'NKU-不想重装_用户手册（2112957_2112075_2113630_2111224).pdf');
-INSERT INTO `teamhomework` VALUES (5, '部署文档', 'NKU-不想重装_部署文档（2112957_2112075_2113630_2111224).pdf');
-INSERT INTO `teamhomework` VALUES (6, '项目展示PPT', 'NKU-HLPY_项目展示PPT(2012682_2012174_2013631_2014089).pptx');
+INSERT INTO `teamhomework` VALUES (1, '需求文档', 'NKU-不想重装_需求文档（2112957_2112075_2113630_2111224）.pdf');
+INSERT INTO `teamhomework` VALUES (2, '设计文档', 'NKU-不想重装_设计文档（2112957_2112075_2113630_2111224）.pdf');
+INSERT INTO `teamhomework` VALUES (3, '实现文档', 'NKU-不想重装_实现文档（2112957_2112075_2113630_2111224）.pdf');
+INSERT INTO `teamhomework` VALUES (4, '用户手册', 'NKU-不想重装_用户手册（2112957_2112075_2113630_2111224）.pdf');
+INSERT INTO `teamhomework` VALUES (5, '部署文档', 'NKU-不想重装_部署文档（2112957_2112075_2113630_2111224）.pdf');
+INSERT INTO `teamhomework` VALUES (6, '项目展示PPT', 'NKU-不想重装_项目展示PPT（2112957_2112075_2113630_2111224）.pptx');
 
 -- ----------------------------
 -- Table structure for user
 -- ----------------------------
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user`  (
-  `id` int(0) NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL AUTO_INCREMENT,
   `username` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `auth_key` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `password_hash` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `password_reset_token` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `password_reset_token` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `status` smallint(0) NOT NULL DEFAULT 10,
-  `created_at` int(0) NOT NULL,
-  `updated_at` int(0) NOT NULL,
-  `verification_token` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `status` smallint NOT NULL DEFAULT 10,
+  `created_at` int NOT NULL,
+  `updated_at` int NOT NULL,
+  `verification_token` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE,
-  UNIQUE INDEX `username`(`username`) USING BTREE,
-  UNIQUE INDEX `email`(`email`) USING BTREE,
-  UNIQUE INDEX `password_reset_token`(`password_reset_token`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 8 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+  UNIQUE INDEX `username`(`username` ASC) USING BTREE,
+  UNIQUE INDEX `email`(`email` ASC) USING BTREE,
+  UNIQUE INDEX `password_reset_token`(`password_reset_token` ASC) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 8 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of user
