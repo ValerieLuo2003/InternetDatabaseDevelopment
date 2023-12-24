@@ -402,7 +402,7 @@ AppAsset::register($this);
 							<div class="row test-slides">
 								<div class="col-md-6 testimonials_grid text-center">
 									<div class="testimonials_grid-inn">
-									<img src="statics/images/hjx.jpg" alt=" " class="img-fluid" width = "120" height = "120" />
+									<img src="statics/images/lzy.jpg" alt=" " class="img-fluid" width = "120" height = "120" />
 										<div class="test_social_pos">
 										<ul class="social_list1">
 											<li>
@@ -424,7 +424,7 @@ AppAsset::register($this);
 
 								<div class="col-md-6 testimonials_grid text-center">
 									<div class="testimonials_grid-inn">
-									<img src="statics/images/lyy.jpg" alt=" " class="img-fluid" width = "120" height = "120" />
+									<img src="statics/images/lxt.jpg" alt=" " class="img-fluid" width = "120" height = "120" />
 										<div class="test_social_pos">
 											<ul class="social_list1">
 												<li>
@@ -450,7 +450,7 @@ AppAsset::register($this);
 							<div class="row test-slides">
 								<div class="col-md-6 testimonials_grid text-center">
 									<div class="testimonials_grid-inn">
-										<img src="statics/images/pyt.jpg" alt=" " class="img-fluid" width = "120" height = "120" />
+										<img src="statics/images/jh.jpg" alt=" " class="img-fluid" width = "120" height = "120" />
 										<div class="test_social_pos">
 											<ul class="social_list1">
 												<li>
@@ -472,7 +472,7 @@ AppAsset::register($this);
 
 								<div class="col-md-6 testimonials_grid text-center">
 									<div class="testimonials_grid-inn">
-									<img src="statics/images/yx.jpg" alt=" " class="img-fluid" width = "120" height = "120" />
+									<img src="statics/images/syh.jpg" alt=" " class="img-fluid" width = "120" height = "120" />
 										<div class="test_social_pos">
 											<ul class="social_list1">
 												<li>
