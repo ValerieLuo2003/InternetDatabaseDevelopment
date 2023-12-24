@@ -8,7 +8,7 @@ use yii\widgets\ActiveForm;
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
-<div class="countriesview-search">
+<div class="casestudy-search">
 
     <?php $form = ActiveForm::begin([
         'action' => ['index'],
@@ -22,7 +22,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name') ?>
 
-    <?= $form->field($model, 'view') ?>
+    <?= $form->field($model, 'casecontent') ?>
 
     <?= $form->field($model, 'picture') ?>
 

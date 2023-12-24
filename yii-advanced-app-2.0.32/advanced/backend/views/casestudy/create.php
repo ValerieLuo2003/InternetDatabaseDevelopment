@@ -5,11 +5,11 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Countriesview */
 
-$this->title = 'Create Countriesview';
-$this->params['breadcrumbs'][] = ['label' => 'Countriesviews', 'url' => ['index']];
+$this->title = 'Create casestudy';
+$this->params['breadcrumbs'][] = ['label' => 'casestudy', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="countriesview-create">
+<div class="casestudy-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
 

@@ -4,11 +4,11 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\Countriesview */
+/* @var $model backend\models\casestudy */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
-<div class="countriesview-form">
+<div class="casestudy-form">
 
     <?php $form = ActiveForm::begin(); ?>
 
@@ -16,7 +16,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'view')->textarea(['rows' => 6]) ?>
+    <?= $form->field($model, 'casecontent')->textarea(['rows' => 6]) ?>
 
     <?= $form->field($model, 'picture')->textInput(['maxlength' => true]) ?>
 
